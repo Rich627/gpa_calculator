@@ -1,0 +1,6 @@
+Q.df = pd.read_excel(path)這裡讀進來資料索引值有Unname
+A.補設定header,把unnmae的column刪掉
+Q.資料有NA或非數字的值
+A.先從學分下手,在去看成績
+Q.把成績轉換成等地
+A.這部分用if-else沒辦法寫改用numpy套件裡 selece()的函數
